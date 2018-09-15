@@ -49,6 +49,10 @@ section {
 }
 
 .ex {
+    color: #5D737E;
+}
+
+a.hover{
     color: #E5FEFF;
 }
 
