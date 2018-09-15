@@ -59,6 +59,11 @@ section {
 ul {
     list-style-type: none;
     padding: 0px;
+    text-align: center;
+}
+a:link {
+    color: #38454C;
+    text-decoration: none;
 }
 
 a:visited {
