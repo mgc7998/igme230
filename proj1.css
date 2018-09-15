@@ -58,16 +58,17 @@ section {
 
 ul {
     list-style-type: none;
-}
-
-a:hover{
-    color: #E5FEFF;
-    text-decoration: underline;
+    padding: 0px;
 }
 
 a:visited {
     color: #38454C;
     text-decoration: none;
+}
+
+a:hover{
+    color: #E5FEFF;
+    text-decoration: underline;
 }
 /* */
 footer {
