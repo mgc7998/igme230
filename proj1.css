@@ -39,10 +39,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
-}
-
 section {
     width: 48%;
     margin-top: 5px;
@@ -58,6 +54,10 @@ section {
 
 .pro {
     color: #38454C;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a:hover{
