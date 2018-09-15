@@ -1,5 +1,5 @@
 body {
-    background-color: lightcyan;
+    background-color: #5D737E;
     font-size: 14px;
     height: 100%;
     width: 100%;
@@ -7,7 +7,7 @@ body {
 
 header,
 section {
-    background-color: #F05D5E;
+    background-color: #7895A3;
     max-width: 480px;
     display: block;
     margin: 40px auto;
