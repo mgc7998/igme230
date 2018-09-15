@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+.subhead {
+    color:#38454C;
+}
+
 header,
 section {
     background-color: #7895A3;
@@ -52,12 +56,16 @@ section {
     color: #38454C;
 }
 
+.pro {
+    color: #38454C;
+}
+
 a:hover{
     color: #E5FEFF;
 }
 
 a:visited {
-    color: #5D737E;
+    color: #38454C;
 }
 /* */
 footer {
