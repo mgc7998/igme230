@@ -73,7 +73,7 @@ a:visited {
 
 a:hover{
     color: #E5FEFF;
-    text-decoration: underline;
+    text-decoration: none;
 }
 /* */
 footer {
