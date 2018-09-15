@@ -52,10 +52,13 @@ section {
     color: #38454C;
 }
 
-a.hover{
+a:hover{
     color: #E5FEFF;
 }
 
+a:visited {
+    color: #5D737E;
+}
 /* */
 footer {
     text-align: center;
