@@ -1,12 +1,8 @@
 body {
-    background-size: 300px 300px;
     background-color: lightcyan;
     font-size: 14px;
     height: 100%;
     width: 100%;
-    background-image: url(404.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header,
@@ -56,9 +52,4 @@ footer {
     text-align: center;
     color: darkgrey;
     font-size: .8em;
-}
-
-div.body {
-    width: 100%;
-    float: center;
 }
