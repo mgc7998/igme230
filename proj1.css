@@ -21,11 +21,11 @@ section {
 img {
     width: 150px;
     border-radius: 500px;
-    border: 5px double lightcyan;
+    border: 5px double #5D737E;
 }
 
 h1 {
-    color: lightcyan;
+    color: #5D737E;
     font-size: 3em;
 }
 
