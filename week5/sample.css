@@ -53,16 +53,16 @@ nav a {
 
 @media screen and (min-width: 620px) {
     aside {
-        float:left; 
-        width:20%;
+        float: left; 
+        width: 20%;
     }
     nav {
-        float:left; 
-        width:20%;
+        float: left; 
+        width: 20%;
     }
     article{
-        float:left;
-        width:60%;
+        float: left;
+        width: 60%;
         padding: 0 20px;
     }
 }
