@@ -55,7 +55,7 @@ article, nav, aside {
 }
 
 nav {
-    order: -1
+    order: -1;
 }
 
 nav, aside {
@@ -67,8 +67,12 @@ article {
 }
 
 @media screen and (max-width: 36rem){
-    flex-direction: column;
-    max-width: none;
+    main {
+        flex-direction: column;
+    }
+    #wrapper {
+        max-width: none;
+    }
     article, nav, aside {
         order: 0; /* resets order to source default */
         flex: 1; /* allows elements to grow to available space */
