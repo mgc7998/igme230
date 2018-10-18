@@ -76,10 +76,6 @@ main {
 /**************
  CSS Animation 
 **************/
-@keyframe entrance {
-    0% {translateX: -2000px;}
-    100% {translateX: 0px;}
-}
 
 css
 main div:nth-child(1) {
@@ -105,3 +101,13 @@ a:hover .fa {
     color: #ccc;
     animation: spin .5s linear both;
     }
+
+@keyframe entrance {
+    0% {translateX: -2000px;}
+    100% {translateX: 0px;}
+}
+
+@keyframe spin {
+    0% {transform: rotateY(360deg);}
+    100% {transform: rotateY(0deg);}
+}
