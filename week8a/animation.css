@@ -76,6 +76,10 @@ main {
 /**************
  CSS Animation 
 **************/
+@keyframe entrance {
+    0% {translateX: -2000px;}
+    100% {translateX: 0px;}
+}
 
 css
 main div:nth-child(1) {
