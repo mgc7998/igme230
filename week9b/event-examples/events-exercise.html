@@ -41,7 +41,45 @@
 </div>
 
 <script>
-/* Write your code here! */
+    //made radioButtons array to store the radio button color values
+    let radioButtons = document.querySelectorAll("input");
+    let radioRed = radioButtons[0].value;
+    let radioGreen = radioButtons[1].value;
+    let radioBlue = radioButtons[2].value;
+
+    //this function adds text to the info box
+    //the info variable returns the information stored by p because of the info id
+    function selectRadio(color) {
+        let info = document.getElementById("info");
+        info.innerHTML = "You have selected the color " + color;
+    }
+
+    //when the user clicks on the button, it will show the info stored and will be selected
+    radioButtons[0].onclick = function() {
+        selectRadio(radioRed);
+        selected = radioRed;
+    }
+
+    radioButtons[1].onclick = function() {
+        selectRadio(radioGreen);
+        selected = radioGreen;
+    }
+
+    radioButtons[2].onclick = function() {
+        selectRadio(radioBlue);
+        selected = radioBlue;
+    }
+
+    let selected;
+    //when the button is clicked, it will show the statement paired with that button and the heading will change based on the color selected
+    let submitButton = document.querySelector("button");
+    submitButton.onclick = function() {
+        let info = document.getElementById("info");
+        info.innerHTML = "Your FINAL CHOICE is " + selected;
+        let title = document.querySelector("legend");
+        title.style.color = selected;
+	}
+	
 </script>
 </body>
 </html>
