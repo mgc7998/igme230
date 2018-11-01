@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Your Name's Web Storage Exercise</title>
+    <title>Gracie's Web Storage Exercise</title>
 
     <style>
         @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i');
@@ -16,7 +16,7 @@
 
 <body>
 <main>
-    <h1>Your Name's Web Storage Exercise</h1>
+    <h1>Gracie's Web Storage Exercise</h1>
     <div>
         What is your name? &rightarrow; <input type="text" id="nameField">
     </div>
@@ -45,6 +45,7 @@
     const prefix = "webstorage-"; // change 'abc1234' to your github username
     const nameKey = prefix + "name"
     const colorKey = prefix + "color";
+    let background = document.querySelector("body").style;
 
     // retrieve the stored data; will return `null` if the user has never been to this page
     const storedName = localStorage.getItem(nameKey);
@@ -60,14 +61,15 @@
     // if we find a previously set color value, display it
     if (storedColor) {
         colorSelect.querySelector(`option[value='${storedColor}']`).selected = true;
+        background.backgroundColor = storedColor;
     }
 
     /* This part of the script is triggered by user actions  */
     // when the user changes their name or color, update localStorage
     nameField.onchange = e => { localStorage.setItem(nameKey, e.target.value); };
-    colorSelect.onchange = e => { localStorage.setItem(colorKey, e.target.value); };
-
-
+    colorSelect.onchange = e => { localStorage.setItem(colorKey, e.target.value); background.backgroundColor = localStorage.getItem(colorKey)};
+    
+    
 </script>
 </body>
 
