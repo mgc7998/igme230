@@ -24,7 +24,7 @@ body {
 }
 
 .content-section-heading h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .content-section-heading h3 {
@@ -43,21 +43,6 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
-
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 .scroll-to-top {
@@ -93,8 +78,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Head.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Head.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,34 +187,6 @@ h6 {
 
 .menu-toggle:hover {
   background: #343a40;
-}
-
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.callout {
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
 }
 
 .portfolio-item {
