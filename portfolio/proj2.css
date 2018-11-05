@@ -5,39 +5,82 @@ body {
     width: 100%;
 }
 
-.subhead {
-    color:#38454C;
-    font-size: 2em;
+wrapper {
+    width: 100vw;
+
 }
+
+/* Gracie */
+h1 {
+    position: absolute;
+    width: 640px;
+    height: 214px;
+    left: 968px;
+    top: 138px;
+
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 144px;
+
+    color: #3C5B72;
+}
+
 
 header,
 section {
-    background-color: #7895A3;
     max-width: 480px;
     display: block;
     margin: 40px auto;
     box-sizing: border-box;
     padding: 5px;
-    border-radius: 5px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-img {
+/* Image at the top of the page */
+#homeTop {
+    background-size: cover;
+    background-image: url(images/mainBot.png);
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+#DMV Redesign {
+    background-size: cover;
+    background-image: url(Artboard1.png);
+    width: 100vw;
+    background-attachment: fixed;
+}
+#Word Illustrations {
+    background-size: cover;
+    background-image: url(P1-final.jpg);
+    width: 100vw;
+    background-attachment: fixed;
+}
+#3D Corner {
+    background-size: cover;
+    background-image: url(Corner_Canfield.png);
+    width: 100vw;
+    background-attachment: fixed;
+}
+#Hawaii Login {
+    background-size: cover;
+    background-image: url(Artboard1.png);
+    width: 100vw;
+    background-attachment: fixed;
+}
+#3D Animation {
+    background-size: cover;
+    background-image: url(christmas.png);
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+/* projects*/
+work, img {
     width: 150px;
-    border-radius: 500px;
-    border: 5px double #5D737E;
-}
-
-h1 {
-    color: #E5FEFF;
-    font-size: 3em;
-}
-
-h2 {
-    color: #E5FEFF;
-    font-size: 2em;
-    text-align: center;
 }
 
 section {
@@ -53,15 +96,6 @@ section {
     color: #38454C;
 }
 
-.pro {
-    color: #38454C;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0px;
-    text-align: center;
-}
 a:link {
     color: #38454C;
     text-decoration: none;
