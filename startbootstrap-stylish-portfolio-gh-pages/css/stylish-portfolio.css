@@ -45,6 +45,7 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Scroll to Top */
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -70,6 +71,7 @@ h6 {
   font-weight: 800;
 }
 
+/* Header */
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -78,8 +80,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/Head.png");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Head.png");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(51, 91, 201, 0.726)), to(rgba(255, 255, 255, 0.1))), url("../img/Head.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(51, 91, 201, 0.726) 100%), url("../img/Head.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +146,7 @@ h6 {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
+  background: rgba(170, 199, 228, 0.774);
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
