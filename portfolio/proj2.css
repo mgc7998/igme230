@@ -5,11 +5,6 @@ body {
     width: 100%;
 }
 
-wrapper {
-    width: 100vw;
-
-}
-
 /* Gracie */
 h1 {
     position: absolute;
@@ -42,7 +37,7 @@ section {
 /* Image at the top of the page */
 #homeTop {
     background-size: cover;
-    background-image: url(images/mainBot.png);
+    background-image: url(images/Head.png);
     width: 100vw;
     background-attachment: fixed;
 }
@@ -50,30 +45,37 @@ section {
 #DMV Redesign {
     background-size: cover;
     background-image: url(Artboard1.png);
-    width: 100vw;
+    width: 50vw;
     background-attachment: fixed;
 }
 #Word Illustrations {
     background-size: cover;
     background-image: url(P1-final.jpg);
-    width: 100vw;
+    width: 50vw;
     background-attachment: fixed;
 }
 #3D Corner {
     background-size: cover;
     background-image: url(Corner_Canfield.png);
-    width: 100vw;
+    width: 50vw;
     background-attachment: fixed;
 }
 #Hawaii Login {
     background-size: cover;
     background-image: url(Artboard1.png);
-    width: 100vw;
+    width: 50vw;
     background-attachment: fixed;
 }
 #3D Animation {
     background-size: cover;
     background-image: url(christmas.png);
+    width: 50vw;
+    background-attachment: fixed;
+}
+
+#homeBot {
+    background-size: cover;
+    background-image: url(images/mainBot.png);
     width: 100vw;
     background-attachment: fixed;
 }
