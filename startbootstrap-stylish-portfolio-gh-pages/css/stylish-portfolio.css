@@ -335,10 +335,16 @@ a:hover, a:focus, a:active {
   color: #ecb807 !important;
 }
 
-dmvImage {
+#page-top{
+  width: 100%;
+}
+
+.dmvImage {
   display: block;
-  position: relative;
-  overflow: hidden;
-  max-width: 50vw;
+  max-width:50%;
   margin: auto auto 1rem;
+}
+
+picOfMe{
+  max-width: 30%;
 }
