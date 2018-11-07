@@ -348,11 +348,3 @@ a:hover, a:focus, a:active {
   max-width:50%;
   margin: auto auto 1rem;
 }
-
-#picOfMe{
-  max-width: 30%;
-}
-
-.aboutpara {
-  font-size: 3em;
-}
