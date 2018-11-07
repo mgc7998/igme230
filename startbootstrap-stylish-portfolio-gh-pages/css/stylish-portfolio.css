@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Verdana';
 }
 
 .btn-xl {
@@ -30,6 +30,10 @@ body {
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+.content-section-heading p {
+  font-size: 1.2rem;
 }
 
 h1,
@@ -55,7 +59,7 @@ h6 {
   height: 50px;
   text-align: center;
   color: white;
-  background: rgba(52, 58, 64, 0.5);
+  background: rgba(7, 11, 14, 0.838);
   line-height: 45px;
 }
 
@@ -113,7 +117,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgb(31, 91, 164);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -188,7 +192,7 @@ h6 {
 }
 
 .menu-toggle:hover {
-  background: #343a40;
+  background: #63707ee0;
 }
 
 .portfolio-item {
