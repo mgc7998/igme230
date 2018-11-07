@@ -348,3 +348,7 @@ a:hover, a:focus, a:active {
 #picOfMe{
   max-width: 30%;
 }
+
+.aboutpara {
+  font-size: 3em;
+}
