@@ -1,0 +1,41 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+    #navpanel {
+        background-color: pink;
+        width: 200px;
+        height: 200px;
+    }
+    </style>
+</head>
+<body>
+        <button id="show">Show</button>
+        <button id="hide">Hide</button>
+    <div id="navpanel">
+        <ul>
+            <li>link 1</li>
+            <li>link 2</li>
+            <li>link 3</li>
+        </ul>
+
+    </div>
+    
+    <script>
+        $("#hide").click(function(){
+            $("#navpanel").hide(1000);
+        });
+
+        $("#show").click(function(){
+            $("#navpanel").show(1000);
+        });
+    </script>
+</body>
+</html>
