@@ -63,9 +63,12 @@
         <form>
             <label for="verse-choose">Choose a verse</label>
             <select id="verse-choose" name="verse-choose">
-                <option value="verse1-2.txt">Verse 1-2</option>
-                <option value="verse3-4.txt">Verse 3-4</option>
-                <option value="verse5-6.txt">Verse 5-6</option>
+                <option value="verse1">Verse 1</option>
+                <option value="verse2">Verse 2</option>
+                <option value="verse3">Verse 3</option>
+                <option value="verse4">Verse 4</option>
+                <option value="verse5">Verse 5</option>
+                <option value="verse6">Verse 6</option>
             </select>
         </form>
 
@@ -77,10 +80,12 @@
     </div>
     <script>
         'use strict';
+        let poem = "poem.txt";
         let verseChoose = document.querySelector('select'); // the select menu
         let poemDisplay = document.querySelector('#selectedverse');  // the space for the verse to display
-        let verse = "verse1-2.txt" ; // the chosen verse; initialize with first menu option
-        
+        let verse = "verse1" ; // the chosen verse; initialize with first menu option
+        let verseString = (poem + " #" + verse);
+
         function updateVerse(verse) {
             let verseRequest = new XMLHttpRequest();  // defines a specific request
             verseRequest.open('GET', verse);  // specifies what to do when request is sent

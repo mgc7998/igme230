@@ -1,29 +1,29 @@
-<p id="verse1">Earth, receive an honoured guest:<br>
-William Yeats is laid to rest.<br>
-Let the Irish vessel lie<br>
-Emptied of its poetry.<br></p>
+<p id="verse1">My grandmother used to tell me stories about the old days,<br>
+a time of peace when the Avatar kept balance between<br>
+the Water Tribes, Earth Kingdom, Fire Nation, and Air Nomads.<br>
+But that all changed when the Fire Nation attacked.<br></p>
 
-<p id="verse2">In the nightmare of the dark<br>
-All the dogs of Europe bark,<br>
-And the living nations wait,<br>
-Each sequestered in its hate;</p>
+<p id="verse2">Only the Avatar mastered all four elements.<br>
+Only he could stop the ruthless firebenders,<br>
+ut when the world needed him most, he vanished. <br>
+A hundred years have passed and the Fire Nation is nearing victory in the War.</p>
 
-<p id="verse3">Intellectual disgrace<br>
-Stares from every human face,<br>
-And the seas of pity lie<br>
-Locked and frozen in each eye.</p>
+<p id="verse3">Two years ago, my father and the men of my tribe journeyed to the Earth Kingdom to help fight against the Fire Nation,<br>
+leaving me and my brother to look after our tribe.<br>
+Some people believe that the Avatar was never reborn into the Air Nomads,<br>
+and that the cycle is broken.</p>
 
-<p id="verse4">Follow, poet, follow right<br>
-To the bottom of the night,<br>
-With your unconstraining voice<br>
-Still persuade us to rejoice;</p>
+<p id="verse4">But I haven't lost hope.<br>
+I still believe that somehow,<br>
+the Avatar will return to save the world.<br>
+(Intro Music)</p>
 
-<p id="verse5">With the farming of a verse<br>
-Make a vineyard of the curse,<br>
-Sing of human unsuccess<br>
-In a rapture of distress;</p>
+<p id="verse5">Water. Earth. Fire. Air.<br>
+Long ago, the four nations lived together in harmony.<br>
+Then, everything changed<br>
+when the Fire Nation attacked.</p>
 
-<p id="verse6">In the deserts of the heart<br>
-Let the healing fountain start,<br>
-In the prison of his days<br>
-Teach the free man how to praise.</p>
+<p id="verse6">Only the Avatar, master of all four elements, <br>
+could stop them, but when the world needed him most, he vanished.<br>
+A hundred years passed and my brother and I discovered the new Avatar, <br>
+an airbender named Aang, and although his airbending skills are great, he has a lot to learn before he's ready to save anyone. But I believe Aang can save the world.</p>
