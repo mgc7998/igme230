@@ -13,7 +13,6 @@ html {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
-
 html,
 body {
     padding: 0;
@@ -51,7 +50,7 @@ Your Formatting
 
     grid-template-columns: 200px 2fr 1px;
     grid-template-rows: 80px 1fr 1fr 30px;
-    grid-template-areas: "header header header" "nav story source" ". story extracredit" "footer footer footer";
+    grid-template-areas: "header header header" "menu story source" ". story extracredit" "footer footer footer";
 }
 
 header {
@@ -61,7 +60,7 @@ header {
     align-items: center;
 }
 
-#nav {
+#menu {
     background-color: lavenderblush;
     display: flex;
     justify-content: center;
@@ -129,6 +128,6 @@ footer {
         width: 100vw;
         grid-template-columns: 1fr;
         grid-template-rows: 80px auto auto auto auto 30px;
-        grid-template-areas: "header" "story" "source" "extracredit" "nav" "footer";
+        grid-template-areas: "header" "story" "source" "extracredit" "menu" "footer";
     }
 }
