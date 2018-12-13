@@ -1,0 +1,134 @@
+/*****************
+General Formatting
+******************/
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html {
+    /* sets base font size for rem sizing */
+    font-size: 16px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section, header, footer {
+    padding: .5rem;
+}
+
+.menu {
+    width: 100%;
+    padding: .5rem;
+    background-color: #aaa;
+    margin: 1px;
+}
+
+.submenu {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    background-color: #eee;
+    padding-left: .5rem;
+}
+
+/**************
+Your Formatting
+***************/
+#pagegrid {
+    width: 95vw;
+    max-width: 1100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    grid-template-columns: 200px 2fr 1px;
+    grid-template-rows: 80px 1fr 1fr 30px;
+    grid-template-areas: "header header header" "nav story source" ". story extracredit" "footer footer footer";
+}
+
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#story {
+    background-color: lightcyan;
+}
+
+#source {
+    background-color: lightsalmon;
+}
+
+#extracredit {
+    background-color: white;
+}
+
+footer {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: felx;
+}
+
+.submenu :hover{
+    background-color: lightpink;
+    color: magenta;
+    cursor: pointer;
+}
+
+/*submenu slide*/
+#navtoggle {
+    grid-column-start: 2;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#navmenu {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    align-items: top;
+}
+
+#close {
+    display: none;
+}
+
+#open {
+    font-size: 2.5rem;
+}
+
+.submenu {
+    display: none; 
+}
+
+/*mobile*/
+@media screen and (max-width: 760px){
+    #pagegrid{
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px auto auto auto auto 30px;
+        grid-template-areas: "header" "story" "source" "extracredit" "nav" "footer";
+    }
+}
